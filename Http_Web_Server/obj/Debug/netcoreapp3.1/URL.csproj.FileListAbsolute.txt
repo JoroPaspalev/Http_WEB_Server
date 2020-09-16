@@ -1,0 +1,13 @@
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\bin\Debug\netcoreapp3.1\URL.exe
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\bin\Debug\netcoreapp3.1\URL.deps.json
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\bin\Debug\netcoreapp3.1\URL.runtimeconfig.json
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\bin\Debug\netcoreapp3.1\URL.runtimeconfig.dev.json
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\bin\Debug\netcoreapp3.1\URL.dll
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\bin\Debug\netcoreapp3.1\URL.pdb
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.csprojAssemblyReference.cache
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.AssemblyInfoInputs.cache
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.AssemblyInfo.cs
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.csproj.CoreCompileInputs.cache
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.dll
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.pdb
+C:\Users\JP PC\source\repos\Http_Web_Server\Http_Web_Server\obj\Debug\netcoreapp3.1\URL.genruntimeconfig.cache

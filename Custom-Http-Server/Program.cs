@@ -12,7 +12,7 @@ namespace Custom_Http_Server
 
         static void Main(string[] args)
         {
-            //Browser address: 127.0.0.1:1234 OR localhost:1234
+            //Browser address: 127.0.0.1:1212 OR localhost:1212
 
             string htmlFile = File.ReadAllText(@"..\..\..\test.html", Encoding.UTF8);
 

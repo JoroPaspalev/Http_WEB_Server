@@ -29,11 +29,11 @@ namespace Custom_Web_Server
 
                     string html = @"<html>
 < header >
-< link rel = ""stylesheet"" href = ""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css "" />
-   
+    < link rel = ""stylesheet"" href = ""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css "" />
+<---- Как да накарам Browser да ми зареди Bootstrap-a??? ---->
+</ header >
 
-   </ header >
-   < body class=""container"">
+< body class=""container"">
 <h1>Wellcome to Yalp!</h1>
 <div>
 <form>

@@ -9,31 +9,35 @@ namespace Custom_Web_Server
     {
         static void Main(string[] args)
         {
+            // 1.
             TcpListener tcpListener = new TcpListener(IPAddress.Loopback, 1212); // Това казва - аз съм TcpListener и ще слушам за входящи заявки (в случая на локалната машина - IPAddress.Loopback) на порт 1212. Всичко което дойде на този порт аз ще го взема и обработя. С този код само го инициализираме
+            
+            //2.
             tcpListener.Start(); // .Start() - казва на операционната система - дай ми порт 1212 за мен, моята програма започва да работи на този порт
 
             while (true)
             {
-                var client = tcpListener.AcceptTcpClient();
-                using (var stream = client.GetStream())
+                // 3.
+                TcpClient client = tcpListener.AcceptTcpClient(); // Този метод .AcceptTcpClient() чака някой клиент да се обърне към него (Както Console.Readline стои и чака да се въведе нещо на конзолата) т.е. да се въведе URL в браузъра и ентер. Метода улавя информациата на този клиент и ни я връща като променлива - в случая client. Каква ми е ползата от тази информация? - Тя ми дава всички нужно за да мога да комуникирам с браузъра!!!
+                
+                // 4.
+                using (NetworkStream stream = client.GetStream()) // Вземаме си Stream-а към този клиент. В него можем да пишем и четем
                 {
                     byte[] buffer = new byte[100000];
-                    int length = stream.Read(buffer, 0, buffer.Length);
-
+                    int length = stream.Read(buffer, 0, buffer.Length); //Чета от стрийма Request-a и го записвам в buffer-а
                     
-                    string requestString = Encoding.UTF8.GetString(buffer, 0, length);
+                    string requestString = Encoding.UTF8.GetString(buffer, 0, length);// от byte масива трябва по някакъв начин да си направя string за да мога да го чета - става с Encoding
 
                     Console.WriteLine(requestString);
 
                     Console.WriteLine(new string('-', 70));
 
                     string html = @"<html>
-< header >
-    < link rel = ""stylesheet"" href = ""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css "" />
-<---- Как да накарам Browser да ми зареди Bootstrap-a??? ---->
-</ header >
+<header>
+    <link rel = ""stylesheet"" href = ""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css ""/>
+</header >
 
-< body class=""container"">
+<body class=""container"">
 <h1>Wellcome to Yalp!</h1>
 <div>
 <form>

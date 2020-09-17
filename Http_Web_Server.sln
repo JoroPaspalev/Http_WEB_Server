@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URL", "Http_Web_Server\URL.csproj", "{B3AAB44E-E4AC-4C7D-AAA8-4234E80F1450}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClient", "HttpClient\HttpClient.csproj", "{54E88592-AB3F-4AE1-A963-99048FCC0AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Web Server", "Custom Web Server\Custom Web Server.csproj", "{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B3AAB44E-E4AC-4C7D-AAA8-4234E80F1450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3AAB44E-E4AC-4C7D-AAA8-4234E80F1450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3AAB44E-E4AC-4C7D-AAA8-4234E80F1450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E88592-AB3F-4AE1-A963-99048FCC0AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E88592-AB3F-4AE1-A963-99048FCC0AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E88592-AB3F-4AE1-A963-99048FCC0AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E88592-AB3F-4AE1-A963-99048FCC0AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

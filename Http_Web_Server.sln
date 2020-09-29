@@ -9,9 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClient", "HttpClient\Ht
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Web Server", "Custom Web Server\Custom Web Server.csproj", "{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_Http_Server", "ConsoleApp1\Custom_Http_Server.csproj", "{872E7FCC-4DD6-46EF-AFB6-41A196FFA390}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom-Http-Server", "Custom-Http-Server\Custom-Http-Server.csproj", "{0B6D2B7D-DFB0-467A-B69D-EFD5407878DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom-Http-Server", "Custom-Http-Server\Custom-Http-Server.csproj", "{0B6D2B7D-DFB0-467A-B69D-EFD5407878DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E59E6DF0-52E6-4E5F-9504-5310B4E6586D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{872E7FCC-4DD6-46EF-AFB6-41A196FFA390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{872E7FCC-4DD6-46EF-AFB6-41A196FFA390}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{872E7FCC-4DD6-46EF-AFB6-41A196FFA390}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{872E7FCC-4DD6-46EF-AFB6-41A196FFA390}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B6D2B7D-DFB0-467A-B69D-EFD5407878DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B6D2B7D-DFB0-467A-B69D-EFD5407878DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6D2B7D-DFB0-467A-B69D-EFD5407878DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
